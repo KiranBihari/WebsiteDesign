@@ -1,0 +1,215 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+:before, :after{
+    box-sizing: border-box;
+}
+.container:before,.container:after, .navibar:before, .navibar:after, .logoBlock:before, .logoBlock:after, .menu:before, .menu:after{
+    display: table;
+    content: " ";
+}
+.container:after,.row::after, .navibar:after, .logoBlock:after, .menu:after{
+    clear: both;
+}
+.row::before,.row::after{
+    display: table;
+    content: " ";
+}
+
+.container>.logoBlock{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.navibar{
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+/*Navibar*/
+@media (min-width: 768px){
+.navibar {
+    border-radius: 4px;
+}}
+
+/*LogoBrand*/
+@media (min-width: 768px){
+.navibar>.container .logoBrand{
+    margin-left: -15px;
+}}
+
+/*LogoBlock*/
+@media (min-width: 768px){
+    .container>.logoBlock{
+        margin-right: 0;
+        margin-left: 0;
+}}
+
+@media (min-width: 768px){
+.logoBlock {
+    float: left;
+}}
+
+/*Right menu bar Bootstrap*/
+@media (min-width: 768px){
+.menuRight {
+    float: right!important;
+    margin-right: -15px;
+}}
+
+@media (min-width: 768px){
+.menuBar {
+    float: left;
+    margin: 0;
+}}
+
+@media only screen and (min-width: 768px){
+.menuList li {
+    padding: 0px 15px;
+}}
+
+@media (min-width: 768px){
+.menuBar>li {
+    float: left;
+}}
+
+@media only screen and (min-width: 768px){
+#naviheader.navi_transparent:not(.fixedNaviBar) .menuList>li>a {
+    color: #fff;
+}}
+
+@media only screen and (min-width: 768px){
+.menuList>li>a:hover, .menuList>li>a:focus {
+    background: transparent;
+    color: #6195FF;
+}}
+
+@media only screen and (min-width: 768px){
+.menuList>li>a:after {
+    content: " ";
+    display: block;
+    background-color: #6195FF;
+    height: 2px;
+    width: 0%;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}}
+
+@media only screen and (min-width: 768px){
+.menuList>li>a {
+    color: #10161A;
+    padding: 15px 0px;
+}}
+@media only screen and (min-width: 768px){
+.menuList li a {
+    font-size: 14px;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}}
+
+
+/*Nav Collapse*/
+@media only screen and (min-width: 768px){
+.navCollapse {
+    display: none;
+}}
+
+/*Container*/
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}}
+
+/*About Block*/
+@media (min-width: 992px){
+.aboutBlock {
+    width: 33.33333333%;
+    float: left;
+}}
+.about:after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+/*Services Block*/
+.services::after{
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+/*Team Block*/
+.team::after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0%;
+    z-index: 1;
+    -webkit-transition: 0.2s height;
+    transition: 0.2s height;
+}
+
+.titleAttraction:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 40px;
+    background-color: #6195FF;
+    margin-top: 20px;
+}
+
+/*Portfolio, Servcie, Blog Block*/
+@media (min-width: 992px){
+.portfolioBlock, .servicesBlock, .blogBlock{
+    width: 33.33333333%;
+    float: left;
+    }}
+@media (min-width: 992px){
+    .attractionBlock{
+        width: 50%;
+        float: left;
+    }}
+
+/*Team, Contact, Price Block*/
+@media (min-width: 768px){
+    .teamBlock,.contactBlock, .priceBlock{
+        float: left;
+        width: 33.33333%;
+    }
+}
+
+/*Footer Block*/
+@media (min-width: 992px){
+    .footerBlock{
+        float: left;
+        width: 100%;
+    }
+}
+

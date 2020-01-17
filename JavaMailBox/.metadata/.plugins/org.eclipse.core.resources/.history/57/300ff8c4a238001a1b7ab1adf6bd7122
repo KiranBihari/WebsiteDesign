@@ -1,0 +1,605 @@
+<html>
+    <head>
+        <title>Welcome to Our Website</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <link rel="stylesheet" type="text/css" href="bootstraps.mini.css">
+        <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+        <link rel="stylesheet" type="text/css" href="./font-awesome-4.7.0/css/font-awesome.css">
+    </head>
+    <body>
+        <!--Header and Home section-->
+        <header id="homePage">
+
+            <!--Body background section-->
+            <div class="bg-img" style="background-image: url('./Image/background1.jpg');">
+                
+                <div class="overlay"></div>
+            </div>
+
+            <!--Header Section-->
+            <nav id="naviheader" class="navibar navi_transparent">              
+                <div class="container">
+                    <div class="logoblock"> 
+                        <div class="logoBrand" style="display: flex;align-items: center">
+                            <a href="design.html">
+                                <img class="logo" src="./img/logo.png" alt="LOGO" style="width: 170px;">
+                                <img class="logoalt" src="./img/logo-alt.png" alt="LOGO" style="width: 170PX;">
+                            </a>
+                        </div>
+                        <div class="navCollapse">
+                            <span></span>
+                        </div>
+                    </div>    
+                        <ul class="menuList menu menuBar menuRight">
+                            <li><a href="#homePage">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#prices">Prices</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                </div>    
+            </nav>
+
+            <!--Home Section-->
+                <div class="homeContent">
+                    <div class="row">
+                            <!-- home content -->
+                            <div class="home-content">
+                                <h1 class="homeText">We Are Creative Agency</h1>
+                                <p class="homeText">
+                                   Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+                                </p>
+                            </div>
+                    </div>   
+                 </div>
+        </header>
+         <!--Header and Home section-->
+
+        <!--About Section-->
+        <div id="about" class="about_section about_padding">
+            <div class="container">                
+                <div class="row">
+                    <div class="headerAbout textDecorate">
+                        <h2 class="titleAbout">
+                            Welcome To Website
+                        </h2>
+                    </div>           
+                    <div class="aboutBlock">
+                        <div class="about">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                            <h3>Fully Customizible</h3>
+                            <p>Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet</p>
+                        </div>
+                    </div>
+                    <div class="aboutBlock">
+                        <div class="about">
+                            <i class="fa fa-magic" aria-hidden="true"></i>
+                            <h3>Awesome Features</h3>
+                            <p>Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet</p>
+                        </div>
+                    </div>
+                    <div class="aboutBlock">
+                        <div class="about">
+                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                            <h3>Grooming</h3>
+                            <p>Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+         <!--About Section-->
+
+        <!--Portfolio Section-->
+        <div id="portfolio" class="portfolio_section portfolio_padding portfolioColor">
+            <div class="container">
+                <div class="row">
+                    <div class="headerPortfolio textDecorate">
+                        <h2 class="titlePortfolio">
+                            Featured Works
+                        </h2>                    
+                    </div>
+                    <div class="portfolioBlock port">
+                        <img class="portfolioImage" src="./img/work1.jpg" alt>
+                        <div class="overlay"></div>                        
+                        <div class="portfolioContent">
+                            <span>INFLUENCERS PLATFORM</span>
+                            <h3>Influencers marketplace to help brands, agencies and influencers collaborate and create value</h3>
+                        </div>
+                    </div>
+                    <div class="portfolioBlock port">
+                        <img class="portfolioImage" src="./img/work2.jpg" alt>
+                        <div class="overlay"></div>                        
+                        <div class="portfolioContent">
+                            <span>INFORMATION GAMIFICATION</span>
+                            <h3>platform to show traditional information in gamified manner</h3>
+                        </div>
+                    </div>
+                    <div class="portfolioBlock port">
+                        <img class="portfolioImage" src="./img/work3.jpg" alt>
+                        <div class="overlay"></div>                        
+                        <div class="portfolioContent">
+                            <span>LEARNING AND DEVELOPMENT</span>
+                            <h3>Platform to provide hybrid mode of learning</h3>
+                        </div>
+                    </div>
+                    <div class="portfolioBlock port">
+                        <img class="portfolioImage" src="./img/work4.jpg" alt>
+                        <div class="overlay"></div>                        
+                        <div class="portfolioContent">
+                            <span>LEARNING AND DEVELOPMENT</span>
+                            <h3>Platform to provide hybrid mode of learning</h3>
+                        </div>
+                    </div>
+                    <div class="portfolioBlock port">
+                        <img class="portfolioImage" src="./img/work5.jpg" alt>
+                        <div class="overlay"></div>                        
+                        <div class="portfolioContent">
+                            <span>LEARNING AND DEVELOPMENT</span>
+                            <h3>Platform to provide hybrid mode of learning</h3>
+                        </div>
+                    </div>
+                    <div class="portfolioBlock port">
+                        <img class="portfolioImage" src="./img/work6.jpg" alt>
+                        <div class="overlay"></div>                        
+                        <div class="portfolioContent">
+                            <span>LEARNING AND DEVELOPMENT</span>
+                            <h3>Platform to provide hybrid mode of learning</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio Section-->
+
+        <!--Services Section-->
+        <div id="services" class="services_section services_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="headerServices textDecorate">
+                        <h2 class="titleServices">
+                            What We Offer
+                        </h2>
+                    </div>
+                    <div class="servicesBlock serv">
+                        <div class="services">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                            <h3>App Development</h3>
+                            <p>
+                                Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet                      
+                            </p>
+                        </div>
+                    </div>
+                    <div class="servicesBlock serv">
+                        <div class="services">
+                            <i class="fa fa-rocket" aria-hidden="true"></i>
+                            <h3>Graphic Design</h3>
+                            <p>
+                                Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet
+                            </p>
+                        </div>
+                    </div>
+                    <div class="servicesBlock serv">
+                        <div class="services">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                            <h3>Creative Idea</h3>
+                            <p>
+                                Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet
+                            </p>
+                        </div>
+                    </div>
+                    <div class="servicesBlock serv">
+                        <div class="services">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                            <h3>Marketing</h3>
+                            <p>
+                                Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet
+                            </p>
+                        </div>
+                    </div>
+                    <div class="servicesBlock serv">
+                        <div class="services">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                            <h3>Awesome Support</h3>
+                            <p>
+                                Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet
+                            </p>
+                        </div>
+                    </div>
+                    <div class="servicesBlock serv">
+                        <div class="services">
+                            <i class="fa fa-flask" aria-hidden="true"></i>
+                            <h3>Brand Design</h3>
+                            <p>
+                                Maecenas tempus tellus eget condimentum rhocus sem quam semper libero sit amet
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!--Services Section-->
+
+        <!--Main Attraction Section-->
+        <div id="attraction" class="attraction_section attraction_padding attraction_color">
+            <div class="container">
+                <div class="row">
+                    <div class="attractionBlock">
+                        <div class="headerAttraction">
+                            <h2 class="titleAttraction">
+                                Why Choose us
+                            </h2>
+                        </div>
+                        <div class="attraction">
+                            <p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliaum id diam maecenas ultracies mi eaet mauris.</p>
+                        </div>
+                        <div class="attraction">
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                            <p>Quis varius quam quisque id diam vel quam elementum.</p>
+                        </div>
+                        <div class="attraction">  
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>                     
+                            <p>Mauris augue neque gravida in fermentum.</p>
+                        </div>
+                        <div class="attraction">
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                            <p>Orci phasellus egestas tellus rutrum.</p>
+                        </div>
+                        <div class="attraction">
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                            <p>Nec feugiat nisi pretium fusce id velit ut tortor pretium.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+        <!--Attraction Image Section-->
+                <div class="attractionImage" style="background-image: url(./img/background2.jpg);">
+                    <div class="overlay">
+                        <div class="content1">
+                            <div class="content">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <h3 class="contentHead">451</h3>
+                                <p class="contentPara">Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="content1">
+                            <div class="content">
+                                <i class="fa fa-trophy" aria-hidden="true"></i>
+                                <h3 class="contentHead">12</h3>
+                                <p class="contentPara">Awards Own</p>
+                            </div>
+                        </div>
+                        <div class="content1">
+                            <div class="content">
+                                <i class="fa fa-coffee" aria-hidden="true"></i>
+                                <h3 class="contentHead">154K</h3>
+                                <p class="contentPara">Cups of Coffee</p>
+                            </div>
+                        </div>
+                        <div class="content1">
+                            <div class="content">
+                                <i class="fa fa-file" aria-hidden="true"></i>
+                                <h3 class="contentHead">45</h3>
+                                <p class="contentPara">Projects completed</p>
+                            </div>  
+                        </div>              
+                    </div>
+                </div>
+         <!--Main Attraction Section-->
+
+         <!--Pricing table Section-->
+         <div id="prices" class="price_section price_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="headerPrice textDecorate">
+                            <h2 class="titlePrice">Pricing Table</h2>
+                    </div>
+                    <div class="priceBlock price">
+                        <div class="prices">
+                            <div class="headerPrices">
+                                <span class="heading">Basic Plan</span>
+                                <div class="circlePrice">
+                                    <h3>$9
+                                        <span class="months">/MONTH</span>
+                                    </h3>
+                                </div>
+                            </div>
+                            <ul class="priceContent">
+                                <li><p class="p_para">1GB Disk Space</p></li>   
+                                <li><p class="p_para">100 Email Account</p></li>
+                                <li><p class="p_para">24/24 Support</p></li>
+                            </ul>
+                            <div class="priceButton">
+                                <input class="purchaseButton" type="submit" value="Purchase Now">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="priceBlock price">
+                        <div class="prices">
+                            <div class="headerPrices">
+                                <span class="heading">Silver Plan</span>
+                                <div class="circlePrice">
+                                    <h3>$19
+                                        <span class="months">/MONTH</span>
+                                    </h3>
+                                </div>
+                            </div>
+                            <ul class="priceContent">
+                                <li><p class="p_para">1GB Disk Space</p></li>   
+                                <li><p class="p_para">100 Email Account</p></li>
+                                <li><p class="p_para">24/24 Support</p></li>
+                            </ul>
+                            <div class="priceButton">
+                                <input class="purchaseButton" type="submit" value="Purchase Now">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="priceBlock price">
+                        <div class="prices">
+                            <div class="headerPrices">
+                                <span class="heading">Gold Plan</span>
+                                <div class="circlePrice">
+                                    <h3>$39
+                                        <span class="months">/MONTH</span>
+                                    </h3>
+                                </div>
+                            </div>
+                            <ul class="priceContent">
+                                <li><p class="p_para">1GB Disk Space</p></li>   
+                                <li><p class="p_para">100 Email Account</p></li>
+                                <li><p class="p_para">24/24 Support</p></li>
+                            </ul>
+                            <div class="priceButton">
+                                <input class="purchaseButton" type="submit" value="Purchase Now">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!--Pricing table Section-->
+
+         <!--Employee Details Section-->
+         <div class="detailsImage" style="background-image: url(./img/background3.jpg);">
+            <div class="overlay">
+                <div class="detail1">
+                    <div class="details1">                        
+                        <div class="headDetails">
+                            <img class="pers1" src="./img/perso1.jpg" alt="Perso"> 
+                                <h4 class="namePerson">
+                                    John Doe
+                                </h4>
+                                <h5 class="designation">
+                                    WEB DESIGNER
+                                </h5>
+                        </div>
+                            <p class="detailsPara">
+                                Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliaum id diam maecenas ultricies mi eget mauris.
+                            </p>
+                    </div>
+                </div>
+                <div class="detail2">
+                    <div class="details2">
+                        <div class="headDetails">
+                            <img class="pers1" src="./img/perso2.jpg" alt="Perso"> 
+                                <h4 class="namePerson">
+                                    John Doe
+                                </h4>
+                                <h5 class="designation">
+                                    WEB DESIGNER
+                                </h5>
+                        </div>
+                            <p class="detailsPara">
+                                Molestie at elementum eu facilisis sed odio. Scelerisque in
+                                dictum non consectetur a erat. Aliaum id diam maecenas ultricies mi eget mauris.
+                            </p>
+                    </div>
+                </div>         
+            </div>
+        </div>
+        <!--Employee Details Section-->
+
+        <!--Team Section-->
+        <div id="team" class="team_section team_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="headerTeam textDecorate">
+                        <h2 class="titleTeam">Our Team</h2>
+                    </div>
+                    <div class="teamBlock">
+                        <div class="team">
+                            <div class="teamImage">
+                                <img class="employee" src="./img/team1.jpg" alt="Employee">
+                            </div>
+                            <div class="teamContent">
+                                <h3>John Doe</h3>
+                                <p class="teamContentPara">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teamBlock">
+                        <div class="team">
+                            <div class="teamImage">
+                                <img class="employee" src="./img/team2.jpg" alt="Employee">
+                            </div>
+                            <div class="teamContent">
+                                <h3>John Doe</h3>
+                                <p class="teamContentPara">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teamBlock">
+                        <div class="team">
+                            <div class="teamImage">
+                                <img class="emp1" src="./img/team3.jpg" alt="employee">
+                            </div>
+                            <div class="teamContent">
+                                <h3>John Doe</h3>
+                                <p class="teamContentPara">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Team Section-->
+
+        <!--Blog Section-->
+        <div id="blog" class="blog_section blog_padding blog_color">
+            <div class="container">
+                <div class="row">
+                    <div class="headerBlog textDecorate">
+                        <h2 class="titleBlog">Recents News</h2>
+                    </div>
+                    <div class="blogBlock">
+                        <div class="blog">
+                            <div class="blogImage">
+                                <img class="blogPicture" src="./img/blog1.jpg" alt="Blog">
+                            </div>
+                            <div class="blogContent">
+                                <ul class="contentList">
+                                    <li><i class="fa fa-user" aria-hidden="true"></i>John Doe</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>18 Oct</li>
+                                    <li><i class="fa fa-comments" aria-hidden="true"></i>57</li>
+                                </ul>
+                                <h3>Molestie at elementum eu facilisis sed odio</h3>
+                                <p class="paraBlog">Nec feugiat nisi pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                <a target="_blank" href="#">Read more</a>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="blogBlock">
+                        <div class="blog">
+                            <div class="blogImage">
+                                <img class="blogPicture" src="./img/blog2.jpg" alt="Blog">
+                            </div>
+                            <div class="blogContent">
+                                <ul class="contentList">
+                                    <li><i class="fa fa-user" aria-hidden="true"></i>John Doe</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>18 Oct</li>
+                                    <li><i class="fa fa-comments" aria-hidden="true"></i>57</li>
+                                </ul>
+                                <h3>Molestie at elementum eu facilisis sed odio</h3>
+                                <p class="paraBlog">Nec feugiat nisi pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                <a target="_blank" href="#">Read more</a>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="blogBlock">
+                        <div class="blog">
+                            <div class="blogImage">
+                                <img class="blogPicture" src="./img/blog3.jpg" alt="Blog">
+                            </div>
+                            <div class="blogContent">
+                                <ul class="contentList">
+                                    <li><i class="fa fa-user" aria-hidden="true"></i>John Doe</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>18 Oct</li>
+                                    <li><i class="fa fa-comments" aria-hidden="true"></i>57</li>
+                                </ul>
+                                <h3>Molestie at elementum eu facilisis sed odio</h3>
+                                <p class="paraBlog">Nec feugiat nisi pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                                <a target="_blank" href="#">Read more</a>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Blog Section-->
+
+        <!--Contact Section-->
+        <div id="contact" class="contact_section contact_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="headerContact textDecorate">
+                        <h2 class="titleContact">Get In Touch</h2>
+                    </div>
+                    <div class="contactBlock">
+                        <div class="contact">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <h3>Phone</h3>
+                            <p>512-421-3940</p>
+                        </div>
+                    </div>
+                    <div class="contactBlock">
+                        <div class="contact">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <h3>Email</h3>
+                            <p>email@support.com</p>
+                        </div>
+                    </div>
+                    <div class="contactBlock">
+                        <div class="contact">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h3>Address</h3>
+                            <p>1739 Bubby Drive</p>
+                        </div>
+                    </div>
+                
+                    <div class="formPage">
+                            <form class="form" method="POST" action="servlet/SendMail">
+                                <input name="fName" class="fName" type="text" placeholder="Name">
+                                <input name="to" class="fEmail" type="email" placeholder="Email">
+                                <br>
+                                <br>
+                                <input name="subject" class="fSubject" type="text" placeholder="Subject">
+                                <br>
+                                <br>
+                                <input name="message" class="fMessage" type="text" placeholder="Message">
+                                <br>
+                                <br>
+                                
+                                <input class="fSumbitButton" type="submit" value="Send message">
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Contact Section-->
+
+        <!--Footer Design-->
+        <footer id="footer" class="footer_padding footer_color">
+            <div class="container">
+                <div class="row">
+                    <div class="footerBlock">
+                        <div class="footerLogo">
+                            <a href="#design.html">
+                                <img src="./img/logo-alt.png" alt="Logo" style="width: 200px;">
+                            </a>
+                        </div>
+                        <div class="footerSocialMedia">
+                            <ul class="socialMedia">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="footerCopyRight">
+                            <p>Copyright © 2019. All Rights Reserved. Designed By<a href="https://google.com" target="_blank">COLOR LIB</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+         crossorigin="anonymous"></script>
+
+         <script type="text/javascript" src="./design.js">
+         
+           
+       
+     
+         </script>
+   
+    </body>
+</html>
